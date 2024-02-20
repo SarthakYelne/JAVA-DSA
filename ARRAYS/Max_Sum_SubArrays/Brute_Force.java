@@ -42,16 +42,3 @@ Output :
 2
 Max Sum = 8
  */
-
-/*Output : 
-1
-3 
-6 
-10
-2 
-5 
-9 
-3 
-7 
-4 
-Max Sum = 10 */
