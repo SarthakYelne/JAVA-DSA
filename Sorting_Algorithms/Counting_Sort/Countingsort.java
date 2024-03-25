@@ -15,6 +15,7 @@ public class Countingsort {
         }
 
         int j = 0;
+        //Count Number of Counts present int arr[]
         for(int i=0; i<count.length; i++){
             while (count[i]>0) {
                 arr[j] = i;
