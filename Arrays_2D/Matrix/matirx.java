@@ -3,9 +3,28 @@ package Arrays_2D.Matrix;
 import java.util.Scanner;
 
 public class matirx {
+    public static void Largest_Smallest(int matrix[][]) {
+        int n = matrix.length, m = matrix[0].length;
+        int low = Integer.MAX_VALUE;
+        int high = Integer.MIN_VALUE;
+
+        for (int i=0; i<n; i++) {
+            for (int j=0; j<m; j++) {
+                if (high < matrix[i][j]) {
+                    high = matrix[i][j];
+                }
+                if (low > matrix[i][j]) {
+                    low = matrix[i][j];
+                }
+            }
+        }
+
+        System.out.println("Largest Matrix Element : "+high+" \nSmallest Matrix Element : "+low);
+    }
 
     public static boolean search(int matrix[][], int Key) {
         int n = matrix.length, m = matrix[0].length;
+        
 
         for (int i=0; i<n; i++) {
             for (int j=0; j<m; j++) {
@@ -35,6 +54,7 @@ public class matirx {
                 System.out.println();
             }
             search(matrix, 6);
+            Largest_Smallest(matrix);
         }
     }
 }
@@ -46,3 +66,5 @@ public class matirx {
 // 4 5 6 
 // 7 8 9 
 // 6 Found at (1,2)
+// Largest Matrix Element : 9 
+// Smallest Matrix Element : 1
