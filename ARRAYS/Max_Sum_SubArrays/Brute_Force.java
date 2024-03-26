@@ -1,4 +1,4 @@
-package ARRAYS.Max_Sum_SubArrays;
+package Arrays.Max_Sum_SubArrays;
 
 public class Brute_Force {
 

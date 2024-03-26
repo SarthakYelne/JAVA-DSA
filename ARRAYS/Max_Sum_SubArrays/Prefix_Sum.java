@@ -1,4 +1,4 @@
-package ARRAYS.Max_Sum_SubArrays;
+package Arrays.Max_Sum_SubArrays;
 
 public class Prefix_Sum {
     public static void prefix_sum(int arr[]){

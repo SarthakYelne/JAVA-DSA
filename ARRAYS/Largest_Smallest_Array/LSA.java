@@ -1,4 +1,4 @@
-package ARRAYS.Largest_Smallest_Array;
+package Arrays.Largest_Smallest_Array;
 
 public class LSA {
 

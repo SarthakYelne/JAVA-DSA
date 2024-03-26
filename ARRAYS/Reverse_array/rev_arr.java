@@ -1,4 +1,4 @@
-package ARRAYS.Reverse_array;
+package Arrays.Reverse_array;
 
 // Reverse an Array
 

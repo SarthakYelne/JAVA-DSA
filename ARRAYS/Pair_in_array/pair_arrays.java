@@ -1,4 +1,4 @@
-package ARRAYS.Pair_in_array;
+package Arrays.Pair_in_array;
 
 // Pairs in an Array
 public class pair_arrays {

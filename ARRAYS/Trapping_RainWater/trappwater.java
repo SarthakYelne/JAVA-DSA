@@ -1,4 +1,4 @@
-package ARRAYS.Trapping_RainWater;
+package Arrays.Trapping_RainWater;
 
 public class trappwater {
     public static int Trappingwater(int height[]){

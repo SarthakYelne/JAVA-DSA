@@ -1,4 +1,4 @@
-package ARRAYS.Buy_Sellstocks;
+package Arrays.Buy_Sellstocks;
 
 public class Buy_Sell {
 

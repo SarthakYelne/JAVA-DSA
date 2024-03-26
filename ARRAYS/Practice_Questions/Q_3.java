@@ -1,4 +1,4 @@
-package ARRAYS.Practice_Questions;
+package Arrays.Practice_Questions;
 
 // Q_3 : You  are  given  an  array prices where prices[i] is  the  price  of  a  given  stock  on  
 //       the ith day. Return the maximum profit you can achieve from this transaction. If you cannot 

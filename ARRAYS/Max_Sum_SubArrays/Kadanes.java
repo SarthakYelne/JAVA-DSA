@@ -1,4 +1,4 @@
-package ARRAYS.Max_Sum_SubArrays;
+package Arrays.Max_Sum_SubArrays;
 
 public class Kadanes {
     public static void kadanes_algo(int arr[]){

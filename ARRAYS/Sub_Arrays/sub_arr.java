@@ -1,4 +1,4 @@
-package ARRAYS.Sub_Arrays;
+package Arrays.Sub_Arrays;
 
 // Fuction to print Sub Arrays  
 public class sub_arr {

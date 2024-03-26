@@ -1,4 +1,4 @@
-package ARRAYS.Practice_Questions;
+package Arrays.Practice_Questions;
 
 public class Q_2 {
 
