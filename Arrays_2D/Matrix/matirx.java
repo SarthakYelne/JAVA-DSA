@@ -2,6 +2,8 @@ package Arrays_2D.Matrix;
 
 import java.util.Scanner;
 
+// Largest and Smallest Element in Matrix 
+// Time Complexity : O(n^2)
 public class matirx {
     public static void Largest_Smallest(int matrix[][]) {
         int n = matrix.length, m = matrix[0].length;
@@ -22,6 +24,9 @@ public class matirx {
         System.out.println("Largest Matrix Element : "+high+" \nSmallest Matrix Element : "+low);
     }
 
+
+    // Linear Search In Matrix
+    // Time Complexity : O(n^2) 
     public static boolean search(int matrix[][], int Key) {
         int n = matrix.length, m = matrix[0].length;
         

@@ -1,5 +1,8 @@
 package Arrays_2D.Spiral_Matrix;
 
+// Spiral Matrix Problem
+// Time Complexity : O(n*m)
+
 public class spiral {
     public static void Spiral(int matrix[][]) {
         int startRow = 0;
