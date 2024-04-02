@@ -5,8 +5,10 @@ package Arrays_2D.Search_In_Sorted_Matrix;
 
 public class staircase_problem {
     public static boolean StairCase_problem (int matrix[][], int key) {   
-        int row = 0, col = matrix[0].length-1;
+        // int row = matrix.length-1, col = 0; // for bottom to top
+        int row = 0, col = matrix[0].length-1; // for top to bottom
 
+        // This Logic for top to bottom
         while (row <= matrix.length && col >= 0) {
             if (key == matrix[row][col]) {
                 System.out.println("Key found at ("+row+","+col+")");
@@ -19,8 +21,24 @@ public class staircase_problem {
                 row++;
             }
         }
+
+        // This logic for bottom to top 
+        // while(row >= 0 && col <= matrix.length) {
+        //     if(key == matrix[row][col]){
+        //         System.out.println("Key Found");
+        //         return true;
+        //     }
+        //     else if (key < matrix[row][col]) {
+        //         row--;
+        //     }
+        //     else {
+        //         col++;
+        //     }
+        // }
+
         System.out.println("Key not found...");
         return false;
+
     }
 
     public static void main(String[] args) {
